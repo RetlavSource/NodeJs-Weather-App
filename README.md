@@ -1,6 +1,6 @@
 
 # Weather App using NodeJs and HandleBars
-![NodeJs Weather App](./OtherFiles/weather.app.png)
+![NodeJs Weather App](./OtherFiles/weather-app.png)
 
 This is a study of Node.Js programming language, implementing HandleBars for generating *html* in the backend
 
