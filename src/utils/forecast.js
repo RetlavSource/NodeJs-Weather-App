@@ -1,12 +1,7 @@
 const request = require('postman-request');
-const utils = require('./utils');
-
-// Get ALL the keys and Tokens
-const keysAndTokens = utils.getKeysAndTokens();
 
 const forecast = (latitude, longitude, callback) => {
-    const weatherStackKey = keysAndTokens.weatherStackKey;
-    const url = `http://api.weatherstack.com/current?access_key=${weatherStackKey}&query=${latitude},${longitude}&units=m`;
+    const url = `http://api.weatherstack.com/current?access_key=5dddae4de66515aca9ff477058b743ec&query=${latitude},${longitude}&units=m`;
 
     request({ url, json: true}, (error, { body }) => {
         if (error) {

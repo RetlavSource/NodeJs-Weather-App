@@ -1,13 +1,8 @@
 const request = require('postman-request');
-const utils = require('./utils');
-
-// Get ALL the keys and Tokens
-const keysAndTokens = utils.getKeysAndTokens();
 
 const geocode = (address, callback) => {
-    const mapBoxToken = keysAndTokens.mapBoxToken;
     // encodeURIComponent(address) -> is safer. Translates everything into a string (? becomes %3F)
-    const url = `https://api.mapbox.com/geocoding/v5/mapbox.places/${encodeURIComponent(address)}.json?access_token=${mapBoxToken}&limit=1`;
+    const url = `https://api.mapbox.com/geocoding/v5/mapbox.places/${encodeURIComponent(address)}.json?access_token=pk.eyJ1IjoibXJiaXR3aXNlIiwiYSI6ImNrYzhoZjY4bjFibWIzMXJpaGVzZmEyM28ifQ.G_-JB5B-xBYq65bZ0JKFVw&limit=1`;
 
     request({ url, json: true}, (error, { body }) => {
         if (error) {
