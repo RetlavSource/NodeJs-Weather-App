@@ -21,7 +21,6 @@ The fun of this study was made possible by:
 - [Node.js Complete course](https://www.udemy.com/course/the-complete-nodejs-developer-course-2/) in [Udemy](https://www.udemy.com/)
 - [Node.js](https://nodejs.org/en/) Official Site
 - [npm](https://www.npmjs.com) Official Site
-- [npm](https://www.npmjs.com) Official Site
 - [handlebarsjs](https://handlebarsjs.com/) Official Site
 - Andrew Mead [GitHub](https://github.com/andrewjmead/node-course-v3-code) Repository and [Site](https://mead.io/)
 - All credits from this study goes to *Udemy* and the instructor *Andrew Mead*
