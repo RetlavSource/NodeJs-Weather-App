@@ -13,6 +13,11 @@ This is a study of Node.Js programming language, implementing HandleBars for gen
 - Uses ***handlebars*** framework for generating *html* files.
 - Uses ***mongoDB*** as a local database.
 
+---
+
+### Test the App
+
+- App is deployed on Heroku for testing: http://mrbitwise-weather-app.herokuapp.com
 
 ---
 
